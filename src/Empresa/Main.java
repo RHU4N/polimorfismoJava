@@ -22,7 +22,8 @@ public class Main {
         Autenticavel auth1 = gerente;
         Autenticavel auth2 = cliente;
         auth1.login("admin", "admin");
-        auth2.login("jorge", "1123");
+
+        auth2.login("jorge", "123");
 
         // Calculando salario do gerente (salario - 300 + bonus)
         System.out.println("Salario do gerente: " + gerente.calcularSalario());
